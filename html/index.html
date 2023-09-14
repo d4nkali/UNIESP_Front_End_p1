@@ -16,23 +16,29 @@
     <h1>POR FAVOR, INICIE A RECUPERAÇÃO DA <b style="color: rgb(255, 0, 0);">SUA CONTA</b></h1>
     <hr>
 
-    <form autocomplete="on" action="" method="get">
+    <form autocomplete="on" action="" method="post">
 
         <br>
         Nome: 
-        <input type="text" name="name" id="name" placeholder="Nome e Sobrenome">
+        <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required>
         <BR>
         Celular
         <input type="number" name="number" id="number" placeholder="Digite com o DDD">
         <br>
         Email
-        <input type="email" name="email" id="email" placeholder="Email que possua conta registrada">
+        <input type="email" name="email" id="email" placeholder="Email que possua conta registrada" required>
         <br>
         Dominio (Caso Tenha)
-        <input type="url" name="url" id="url" >
+        <input type="url" name="url" id="url">
+        <br>
         <br>
         <input type="submit" value="Clique para enviar um Email de recuperação">
         <br>
+        <br>
+        <hr>
+        <br>
+        Data de Acesso
+        <input type="datetime-local" name="data"/>
 
     </form>
 
