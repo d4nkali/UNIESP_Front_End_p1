@@ -18,24 +18,31 @@
 
     <form autocomplete="on" action="" method="get">
 
+        
+
+        <fieldset>
+
+        <legend>Cadrasto</legend>
         <br>
-        Nome: 
+
+        <label for="text">Nome:</label>
         <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required>
-        <BR>
-        Celular
+        <br>
+        <label for="number">Celular:</label>
         <input type="number" name="number" id="number" placeholder="Digite com o DDD">
         <br>
-        Email
+        <label for="email">Email:</label>
         <input type="email" name="email" id="email" placeholder="Email que possua conta registrada" required>
         <br>
-        Dominio (Caso Tenha)
+        <label for="url">Dominio (Caso Tenha)</label>
         <input type="url" name="url" id="url">
         <br>
         <br>
         <input type="submit" value="Clique para enviar um Email de recuperação">
         <br>
         <br>
-        <hr>
+        </fieldset>
+
         <br>
         Data de Acesso
         <input type="datetime-local" name="data"/>
@@ -67,6 +74,7 @@
         <br>
         <br>
         <hr>
+        <label></label>
         <select>
 
             <option value="Vasco" selected>Vasco</option>
@@ -74,9 +82,9 @@
             <option value="Botafogo">Botafogo</option>
             <option value="Fluminense">Fluminense</option>
 
-
-
         </select>
+        <br>
+        <br>
         <input type="submit" value="Clique para enviar a pesquisa opcional">
         
     </form>
