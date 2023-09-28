@@ -56,8 +56,38 @@
 
     <hr>
     <h3>Formulario de contrato de serviço:</h3>
+    <p>Caso queira contratar os serviços, complete o formulario abaixo. </p>
 
+    <form autocomplete="on" action="" method="get">
+
+        <fieldset>
+
+            <legend>Digite as informações aqui</legend>
+            <br>
+            <label for="text">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required>
+            <br>
+            <label for="number">Celular:</label>
+            <input type="number" name="number" id="number" placeholder="Digite tudo junto" requerid>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email que possua conta registrada" required>
+            <br>
+            Para que serviço você que contratar:
+            <select>
+
+                <option value="Arduino" selected>Automatização com Arduino</option>
+                <option value="Desbloqueio">Desbloqueio Wii</option>
+                <option value="Office">Serviço office</option>
+                <option value="Redstone">Farm Minecraft</option>
     
+            </select>
+            <br>
+            <button type="submit">Enviar formulario</button>
+            <br>
+            </fieldset>
+
+    </form>
 
 </body>
 
