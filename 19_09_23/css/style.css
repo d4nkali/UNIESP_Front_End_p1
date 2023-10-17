@@ -1,0 +1,17 @@
+body {
+
+    background-color: black;
+    color: white;
+    background-image: url(/19_09_23/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
