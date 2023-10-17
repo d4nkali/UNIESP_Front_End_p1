@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/20_09_23/css/style.css">
+
+</head>
+
+
+<body>
+    
+    <h1>POR FAVOR, INICIE A RECUPERAÇÃO DA <b style="color: rgb(255, 0, 0);">SUA CONTA</b></h1>
+    <hr>
+
+    <form autocomplete="on" action="" method="get">
+
+        
+
+        <fieldset>
+
+        <legend>Cadrasto</legend>
+        <br>
+
+        <label for="text">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required>
+        <br>
+        <label for="number">Celular:</label>
+        <input type="number" name="number" id="number" placeholder="Digite com o DDD">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email que possua conta registrada" required>
+        <br>
+        <label for="url">Dominio (Caso Tenha)</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <br>
+        <input type="submit" value="Clique para enviar um Email de recuperação">
+        <br>
+        <br>
+        </fieldset>
+
+        <br>
+        Data de Acesso
+        <input type="datetime-local" name="data"/>
+
+        <hr>
+        <br>
+        <h3>Marque qual é melhor console da <b>4°</b> geração!</h3>
+        <input type="radio" name="consoles"/> PC Engine
+        <br>
+        <input type="radio" name="consoles"/> Mega Drive
+        <br>
+        <input type="radio" name="consoles" checked/> Super Nintendo
+        <br>
+        <input type="radio" name="consoles"/> Neo Geo
+
+        <br>
+        <h3>Marque pelo menos 2 consoles da <b>5°</b> geração!</h3>
+        <input type="checkbox" name="consoles1"/> Sony PlayStation
+        <br>
+        <input type="checkbox" name="consoles1"checked/> Sega Dreamcast
+        <br>
+        <input type="checkbox" name="consoles1"/> Nintendo GameBoy
+        <br>
+        <input type="checkbox" name="consoles1"/> Atari 2600
+        <br>
+        <input type="checkbox" name="consoles1"/> Xbox
+        <br>
+        <input type="checkbox" name="consoles1"/> 3DO
+        <br>
+        <br>
+        <hr>
+        <label></label>
+        <select>
+
+            <option value="Vasco" selected>Vasco</option>
+            <option value="Flamengo">Flamengo</option>
+            <option value="Botafogo">Botafogo</option>
+            <option value="Fluminense">Fluminense</option>
+
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Clique para enviar a pesquisa opcional">
+        
+    </form>
+
+</body>
+
+
+</html>
