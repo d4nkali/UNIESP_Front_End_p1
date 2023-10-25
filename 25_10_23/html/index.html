@@ -6,6 +6,18 @@
 
     <meta charset="UTF-8">
     <title>Sobre CSS</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <!-- O inserido externo é o terceiro na prioridade -->
+    <style>
+
+        b {
+
+            color: crimson;
+
+        }
+
+    </style>
+    <!-- A inserida na tag style é o segunda na prioridade -->
 
 </head>
 
@@ -14,7 +26,17 @@
     
 <h1>Testando o css</h1>
 <hr>
-<p>Isso é um paragrafo, <br>então isso é <b>negrito</b><br></p>
+<br>
+<p> 
+    
+    Isso é um paragrafo, <br>
+    então isso é <b>negrito</b>,
+    <br>e esse é o <i>italico</i>
+    <br>
+    <!-- O dentro da tag é o primeiro na prioridade -->
+    e por ultimo o <u style="color: teal;">sublinhado</u>
+
+</p>
 
 </body>
 
