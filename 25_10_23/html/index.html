@@ -27,7 +27,8 @@
 <h1>Testando o css</h1>
 <hr>
 <br>
-<p> 
+
+<p id="p1"> 
     
     Isso é um paragrafo, <br>
     então isso é <b>negrito</b>,
@@ -35,6 +36,30 @@
     <br>
     <!-- O dentro da tag é o primeiro na prioridade -->
     e por ultimo o <u style="color: teal;">sublinhado</u>
+
+</p>
+<br>
+
+<hr>
+<br>
+
+<!-- Mesma tag, porem outra id, no qual faz mudar de formas diferentes -->
+<!-- ID tem mais prioridades que a classe-->
+<p id="p2" class="paragrafo">
+
+    Segundo paragrafo <br>
+    outro <b style="color: blueviolet;">negrito</b>
+    <br>Lista ordenada
+    <br>
+    <hr>
+    <ol class="lista">
+
+        <li>1° Linha</li>
+        <li>2° Linha</li>
+
+    </ol>
+    <!-- O b estar na mesma classe do ol, mas se colocar para selecionar so o elemento ol, ou outro não fica com a estelização-->
+    <b class="lista">Não é uma linha</b>
 
 </p>
 

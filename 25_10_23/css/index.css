@@ -23,3 +23,22 @@ b {
     color: rgb(255, 255, 255);
 
 }
+
+#p2 {
+
+    color: darkorange;
+
+}
+
+.paragrafo {
+
+    text-align: end;
+    color: rgb(30, 177, 210);
+
+}
+
+ol.lista { 
+
+    color: darkblue;
+
+}
