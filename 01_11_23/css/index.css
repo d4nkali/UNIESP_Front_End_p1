@@ -11,11 +11,23 @@
 
 #id2 {
 
+    position: relative;
     background-image: url(/01_11_23/img/xcloud.png);
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
     color: rgb(0, 0, 0);
+
+}
+
+#id3{
+
+    float: right;
+    background-color: yellow;
+    color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #000;
 
 }
