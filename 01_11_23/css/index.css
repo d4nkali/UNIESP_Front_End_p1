@@ -8,3 +8,14 @@
     color: rgb(255, 255, 255);
 
 }
+
+#id2 {
+
+    background-image: url(/01_11_23/img/xcloud.png);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+
+}
