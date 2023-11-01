@@ -2,5 +2,9 @@
 
     background-image: url(/01_11_23/img/tux.png);
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
 
 }
