@@ -1,0 +1,44 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.divisao {
+
+    background-image: url(/01_11_23/img/tux.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+
+}
+
+#id2 {
+
+    position: relative;
+    background-image: url(/01_11_23/img/xcloud.png);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+
+}
+
+#id3{
+
+    float: right;
+    background-color: yellow;
+    background-image: url(/01_11_23/img/kali_linux.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
+    color: aqua;
+    margin: 60px 60px 0px 60px;
+    padding: 20px;
+    border: 5px solid #000;
+
+}
